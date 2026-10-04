@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "DevOpsGuard Monitoring System is Running"
+    return "DevopsGuard CI Demo is Running"
 
 
 @app.route("/health")
