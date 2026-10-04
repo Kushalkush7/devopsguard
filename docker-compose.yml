@@ -1,0 +1,7 @@
+services:
+  devopsguard:
+    build: .
+    container_name: devopsguard
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
